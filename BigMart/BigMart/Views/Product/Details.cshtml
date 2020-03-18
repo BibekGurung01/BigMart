@@ -1,0 +1,54 @@
+﻿@model BigMart.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProductModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.p_name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.p_name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.category)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.category)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.stock)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.stock)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.m_date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.m_date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.e_date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.e_date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
