@@ -4,53 +4,78 @@
     ViewData["Title"] = "Create";
 }
 
-<h2>Create</h2>
 
-<h4>ProductModel</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Quick Example</h3>
+    </div>
+
+    <!-- /.card-header -->
+    <!-- form start -->
+    <form asp-action="Create">
+        <div class="card-body">
             <div class="form-group">
-                <label asp-for="p_name" class="control-label"></label>
-                <input asp-for="p_name" class="form-control" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <label for="exampleInputEmail1">Product Name</label>
+                <input asp-for="p_name" class="form-control" placeholder="Product Name">
                 <span asp-validation-for="p_name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="category" class="control-label"></label>
-                <input asp-for="category" class="form-control" />
+                <label for="exampleInputEmail1">Product Category</label>
+                <input asp-for="category" class="form-control" placeholder="Category">
                 <span asp-validation-for="category" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="stock" class="control-label"></label>
-                <input asp-for="stock" class="form-control" />
+                <label for="exampleInputEmail1">Stock</label>
+                <input asp-for="stock" class="form-control" placeholder="Stock">
                 <span asp-validation-for="stock" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="m_date" class="control-label"></label>
-                <input asp-for="m_date" class="form-control" />
+                <label for="exampleInputEmail1">Manufacture Date</label>
+                <input asp-for="m_date" class="form-control" placeholder="Manufacture Date">
                 <span asp-validation-for="m_date" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="e_date" class="control-label"></label>
-                <input asp-for="e_date" class="form-control" />
+                <label for="exampleInputEmail1">Expire Date</label>
+                <input asp-for="e_date" class="form-control" placeholder="Expire date">
                 <span asp-validation-for="e_date" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="price" class="control-label"></label>
-                <input asp-for="price" class="form-control" />
-                <span asp-validation-for="price" class="text-danger"></span>
+                <label for="exampleInputFile">File input</label>
+                <div class="input-group">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="">Upload</span>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <label for="exampleInputEmail1">Price</label>
+                <input asp-for="price" class="form-control" id="Price" placeholder="Price">
+                <span asp-validation-for="price" class="text-danger"></span>
             </div>
-        </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+        </div>
+        <!-- /.card-body -->
+
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            
+                <button class="btn btn-danger"> <a asp-action="Index">Back to List</a></button>
+
+        </div>
+        
+    </form>
 </div>
 
 @section Scripts {
