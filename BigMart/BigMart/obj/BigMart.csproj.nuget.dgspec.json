@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\BigMart.csproj": {}
+    "C:\\Users\\Twins Digital\\Desktop\\ismt\\BigMart\\BigMart\\BigMart\\BigMart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\BigMart.csproj": {
+    "C:\\Users\\Twins Digital\\Desktop\\ismt\\BigMart\\BigMart\\BigMart\\BigMart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\BigMart.csproj",
+        "projectUniqueName": "C:\\Users\\Twins Digital\\Desktop\\ismt\\BigMart\\BigMart\\BigMart\\BigMart.csproj",
         "projectName": "BigMart",
-        "projectPath": "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\BigMart.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\obj\\",
+        "projectPath": "C:\\Users\\Twins Digital\\Desktop\\ismt\\BigMart\\BigMart\\BigMart\\BigMart.csproj",
+        "packagesPath": "C:\\Users\\Twins Digital\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Twins Digital\\Desktop\\ismt\\BigMart\\BigMart\\BigMart\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Twins Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
