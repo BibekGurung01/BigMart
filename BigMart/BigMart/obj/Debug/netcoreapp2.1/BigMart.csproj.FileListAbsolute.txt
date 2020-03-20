@@ -170,3 +170,4 @@ C:\Users\user\Desktop\help\BigMart\BigMart\BigMart\obj\Debug\netcoreapp2.1\BigMa
 C:\Users\user\Desktop\help\BigMart\BigMart\BigMart\obj\Debug\netcoreapp2.1\BigMart.dll
 C:\Users\user\Desktop\help\BigMart\BigMart\BigMart\obj\Debug\netcoreapp2.1\BigMart.pdb
 C:\Users\user\Desktop\help\BigMart\BigMart\BigMart\obj\Debug\netcoreapp2.1\BigMart.csproj.CopyComplete
+C:\Users\user\Desktop\help\BigMart\BigMart\BigMart\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layoutfront.cshtml.g.cs
