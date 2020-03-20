@@ -12627,11 +12627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\BigMart.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\help\\BigMart\\BigMart\\BigMart\\BigMart.csproj",
       "projectName": "BigMart",
-      "projectPath": "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\BigMart.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\help\\BigMart\\BigMart\\BigMart\\BigMart.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\BigMart\\BigMart\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\help\\BigMart\\BigMart\\BigMart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
