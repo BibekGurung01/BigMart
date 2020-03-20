@@ -29,6 +29,13 @@
     <link rel="stylesheet" href="~/adminlt/plugins/summernote/summernote-bs4.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/adminlt/plugins/fontawesome-free/css/all.min.css">
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/adminlt/dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    @*<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">*@
 </head>
     
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -84,24 +91,24 @@
             <div class="sidebar">
                 <!-- Sidebar user panel (optional) -->
                 @*<div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                    <div class="image">
-                        <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                    </div>
-                    <div class="info">
-                        <a href="#" class="d-block">Big Mart</a>
-                    </div>
-                </div>*@
+                        <div class="image">
+                            <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        </div>
+                        <div class="info">
+                            <a href="#" class="d-block">Big Mart</a>
+                        </div>
+                    </div>*@
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
-                    with font-awesome or any other icon font library -->
+                        with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview menu-open">
                             <a href="#" class="nav-link active">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    user
+                                    Dashboard
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -118,12 +125,12 @@
                                         <p>Product</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="Inventory/index" class="nav-link">
+                                @*<li class="nav-item">
+                                    <a asp-area="" asp-controller="Inventory" asp-action="Index" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Inventory</p>
                                     </a>
-                                </li>
+                                </li>*@
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -684,6 +691,17 @@
     <script src="~/adminlt/dist/js/pages/dashboard.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="~/adminlt/dist/js/demo.js"></script>
+
+    <script src="~/adminlt/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/adminlt/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE -->
+    <script src="~/adminlt/dist/js/adminlte.js"></script>
+
+    <!-- OPTIONAL SCRIPTS -->
+    <script src="~/adminlt/plugins/chart.js/Chart.min.js"></script>
+    <script src="~/adminlt/dist/js/demo.js"></script>
+    <script src="~/adminlt/dist/js/pages/dashboard3.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
